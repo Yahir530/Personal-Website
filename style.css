@@ -303,9 +303,16 @@ section{
 .section__pic-container{
     height: 400px;
     width: 400px;
-    margin: auto 0;
+    margin: auto 10;
 }
 
+.profile-pics{
+    border-radius: 10rem;
+    margin-left: 0px;
+    height: 300px;
+    width: 500px;
+    
+}
 /*EXPERIENCE SECTION*/
 
 #experience{
@@ -359,7 +366,8 @@ article .icon {
 .project-img {
     border-radius: 2rem;
     width: 90%;
-    height: 90%
+    height: 90%;
+    height: fit-content;
 }
 
 .project-title {
